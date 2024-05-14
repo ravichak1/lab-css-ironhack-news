@@ -231,7 +231,7 @@ header {
   }
 }
 
-@media screen and (min-width: 760px) and (max-width: 1024px) {
+@media (760px < width <1024px) {
   .navbar li {
     width: 100%;
     justify-content: space-evenly;
@@ -248,21 +248,21 @@ header {
 }
 
 @media (width < 480px) {
-  .navbar{
+  .navbar {
     display: none;
   }
-  #menuIcon{
+  #menuIcon {
     display: block;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  #menuIcon img{
+  #menuIcon img {
     margin: 1rem;
   }
 
-  .newspaper-name{
+  .newspaper-name {
     border: none;
   }
 }
