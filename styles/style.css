@@ -234,7 +234,8 @@ header {
 @media (760px < width <1024px) {
   .navbar li {
     width: 100%;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    flex-grow: 1;
   }
 
   .articles-container {
